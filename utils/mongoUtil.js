@@ -1,6 +1,5 @@
 const MongoClient = require("mongodb").MongoClient;
-const uri =
-  "mongodb+srv://hrushikesh:nEt9gQeArz4U6PTf@cluster0.qaekr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "";
 let _db;
 
 const connectDB = async (callback) => {
